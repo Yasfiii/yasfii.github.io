@@ -1,0 +1,169 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+#site-container{
+    width:960px;
+    height:auto;
+    margin:20px auto;
+    border:1px solid #000;
+     padding-top:5px;
+     padding-bottom:5px;
+}
+
+#header {
+    width: 950px;
+    height: 280px;
+    margin: 0px auto;
+    border: 1px solid #000;
+}
+
+#menu-content {
+    width: 950px;
+    height: auto;
+    margin: 5 auto;
+}
+
+#menu {
+    float: left;
+    width: 300px;
+    height: 600px;
+    border: 1px solid #000;
+}
+
+#content {
+    float: left;
+    width: 625px;
+    height: 600px;
+    border: 1px solid #000;
+}
+
+#footer {
+    width: 950px;
+    height: 70px;
+    margin: 5px auto;
+    border: 1px solid #000;
+}
+
+.floating{
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+}
+
+#header{
+    width: 950px;
+    height: 280px;
+    background: url(../images/header_1.jpg);
+    margin: 5px auto;
+}
+
+#header a{
+    font: 28pt 'Matura MT Script Capitals';
+    text-decoration: none;
+    color: white;
+}
+
+#header p{
+    font: 20pt 'Brush Script std';
+    color: #caccc6;
+}
+
+#header{
+    width: 900px;
+    height: 130px;
+    background: url(../images/header_1.jpg);
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.judul_1{
+    display: block;
+    height: 40px;
+    background: #e4761c;
+    font: 20pt "Script MT Bold";
+    color: #fff;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu li a{
+    display: block;
+    height: 30px;
+    background: #e4761c;
+    font: 16 "Script MT Bold";
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 20px;
+}
+
+#menu li a:hover{
+    background: #336466;
+    color: #fff;
+}
+
+#content{
+    width: 610px;
+    height: auto;
+    /*border:1px solid #000;*/
+    float: right;
+    background: #e4761c;
+    padding: 15px;
+}
+
+.judul_2{
+    display: block;
+    border-bottom:2px solid #000 ;
+    font: 26pt "Scrit MT Bold";
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.img{
+    width: 250px;
+    height: 200px;
+    border: 5px solid #fff;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+#content p{
+    margin-top: 20px;
+}
+
+#footer{
+    width:950px;
+    height:40px;
+    margin-top:5px;
+    margin-bottom:0px;
+    margin-right:auto;
+    margin-left:auto;
+    background:#e4761c;
+    text-align:center;
+    padding-top:30px;
+    font-weight:bold;
+    color:#fff;
+}
+
+body{
+    background: #196477;
+    font: 10pt verdana;
+}
+
+#site-container{
+    width: 960px;
+    height: auto;
+    margin: 20px auto;
+    background: #ffffcc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
